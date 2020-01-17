@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="735dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Cadastro do Funcionario"
+        android:textColor="#D50000"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/nome_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome "/>
+
+    <EditText
+        android:id="@+id/email_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email "
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/end_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Endereço"
+        android:inputType="textPostalAddress"
+        />
+
+    <EditText
+        android:id="@+id/telefone_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Celular"
+        android:inputType="phone"/>
+
+    <Button
+        android:id="@+id/botao_eviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enviar"
+        android:background="@color/azulBotao"
+        android:textColor="@color/brancoBotao"/>
+
+
+
+/>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
